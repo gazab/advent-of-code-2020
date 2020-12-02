@@ -19,7 +19,7 @@ arr.forEach(row => {
         const firstMatch = password[lower-1] == char;
         const secondMatch = password[upper-1] == char;
 
-        if(firstMatch ? !secondMatch: secondMatch ) {
+        if(firstMatch ? !secondMatch : secondMatch ) {
             correct++;
         } else {
             incorrect++;
