@@ -1,5 +1,3 @@
-const { createHash } = require('crypto');
-
 fs = require('fs');
 var arr = fs.readFileSync('input.txt').toString().split("\n");
 
