@@ -5,7 +5,7 @@ for(let g of groups) {
     const dict = {};
     const answers = g.split("\n")
     for(let a of answers) {
-        for(let c of [...a]) {
+        for(let c of a) {
             dict[c] = dict[c] == undefined ? 1 : ++dict[c];
         }
     }
