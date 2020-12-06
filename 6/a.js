@@ -9,8 +9,6 @@ for(let g of groups) {
         }
     }
     result += Object.keys(dict).length;
-    //console.log(dict);
-    //console.log("-");
 }
 
 console.log(result);
