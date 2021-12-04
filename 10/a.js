@@ -1,5 +1,5 @@
 fs = require('fs');
-let input = fs.readFileSync('example1.txt').toString().trimEnd().split("\n").map(x => Number.parseInt(x));
+let input = fs.readFileSync('example2.txt').toString().trimEnd().split("\n").map(x => Number.parseInt(x));
 
 input.push(0); // Add jack
 input = input.sort((a, b) => a - b);
